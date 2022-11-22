@@ -8,12 +8,111 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\EF_Chat_VerintServiceK3s.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\EF_Chat_VerintServiceK3s.GlobalUsings.g.cs" />
+    <Compile Include="obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Release\net6.0\EF_Chat_VerintServiceK3s.deps.json" />
+    <Content Include="bin\Release\net6.0\EF_Chat_VerintServiceK3s.runtimeconfig.json" />
+    <Content Include="bin\Release\net6.0\publish\EF_Chat_VerintServiceK3s.deps.json" />
+    <Content Include="bin\Release\net6.0\publish\EF_Chat_VerintServiceK3s.runtimeconfig.json" />
+    <Content Include="obj\Debug\net6.0\EF_Chat_VerintServiceK3s.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\EF_Chat_VerintServiceK3s.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\net6.0\PublishOutputs.e216ba6c2f.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Release\net6.0\EF_Chat_VerintServiceK3s.dll" />
+    <None Include="bin\Release\net6.0\EF_Chat_VerintServiceK3s.dll.config" />
+    <None Include="bin\Release\net6.0\EF_Chat_VerintServiceK3s.exe" />
+    <None Include="bin\Release\net6.0\EF_Chat_VerintServiceK3s.pdb" />
+    <None Include="bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Release\net6.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Release\net6.0\publish.zip" />
+    <None Include="bin\Release\net6.0\publish\EF_Chat_VerintServiceK3s.dll" />
+    <None Include="bin\Release\net6.0\publish\EF_Chat_VerintServiceK3s.dll.config" />
+    <None Include="bin\Release\net6.0\publish\EF_Chat_VerintServiceK3s.exe" />
+    <None Include="bin\Release\net6.0\publish\EF_Chat_VerintServiceK3s.pdb" />
+    <None Include="bin\Release\net6.0\publish\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Release\net6.0\publish\Newtonsoft.Json.dll" />
+    <None Include="bin\Release\net6.0\publish\RestSharp.dll" />
+    <None Include="bin\Release\net6.0\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Release\net6.0\publish\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Release\net6.0\publish\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Release\net6.0\publish\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Release\net6.0\publish\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Release\net6.0\publish\runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Release\net6.0\publish\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Release\net6.0\publish\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Release\net6.0\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Release\net6.0\publish\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Release\net6.0\publish\System.Data.SqlClient.dll" />
+    <None Include="bin\Release\net6.0\publish\System.Drawing.Common.dll" />
+    <None Include="bin\Release\net6.0\publish\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Release\net6.0\publish\System.Security.Permissions.dll" />
+    <None Include="bin\Release\net6.0\publish\System.Windows.Extensions.dll" />
+    <None Include="bin\Release\net6.0\publish\Verint.Platform.SDK.Security.dll" />
+    <None Include="bin\Release\net6.0\publish\Verint.Platform.SDK.Security.RestSharp.dll" />
+    <None Include="bin\Release\net6.0\RestSharp.dll" />
+    <None Include="bin\Release\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Release\net6.0\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Release\net6.0\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Release\net6.0\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Release\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Release\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Release\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Release\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Release\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Release\net6.0\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Release\net6.0\System.Data.SqlClient.dll" />
+    <None Include="bin\Release\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Release\net6.0\System.Security.Permissions.dll" />
+    <None Include="bin\Release\net6.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Release\net6.0\Verint.Platform.SDK.Security.dll" />
+    <None Include="bin\Release\net6.0\Verint.Platform.SDK.Security.RestSharp.dll" />
+    <None Include="obj\Debug\net6.0\EF_Chat_VerintServiceK3s.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\EF_Chat_VerintServiceK3s.assets.cache" />
+    <None Include="obj\Debug\net6.0\EF_Chat_VerintServiceK3s.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\EF_Chat_VerintServiceK3s.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\EF_Chat_VerintServiceK3s.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\EF_Chat_VerintServiceK3s.csproj.nuget.g.props" />
+    <None Include="obj\EF_Chat_VerintServiceK3s.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net6.0\apphost.exe" />
+    <None Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.assets.cache" />
+    <None Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.csproj.CopyComplete" />
+    <None Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.dll" />
+    <None Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.genruntimeconfig.cache" />
+    <None Include="obj\Release\net6.0\EF_Chat_VerintServiceK3s.pdb" />
+    <None Include="obj\Release\net6.0\refint\EF_Chat_VerintServiceK3s.dll" />
+    <None Include="obj\Release\net6.0\ref\EF_Chat_VerintServiceK3s.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
     <PackageReference Include="RestSharp" Version="106.11.7" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
     <PackageReference Include="Verint.Platform.SDK.Security" Version="15.2.9.3" />
     <PackageReference Include="Verint.Platform.SDK.Security.RestSharp" Version="15.2.9.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net6.0\" />
+    <Folder Include="obj\Debug\net6.0\refint\" />
+    <Folder Include="obj\Debug\net6.0\ref\" />
   </ItemGroup>
 
 </Project>
