@@ -23,9 +23,9 @@ namespace FNB_Verint_QM_Service.AppData
                 loggerman.Flush();
                 loggerman.Close();
             }
-            catch
+            catch(Exception ex)
             {
-
+                
             }
         }
         /// <summary>

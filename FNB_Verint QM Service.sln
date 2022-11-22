@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB_Verint QM Service", "FNB_Verint QM Service\FNB_Verint QM Service.csproj", "{8DF07BB6-8473-4B78-A0DE-09EBEF0C3E18}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF_Chat_VerintServiceK3s", "EF_Chat_VerintServiceK3s\EF_Chat_VerintServiceK3s.csproj", "{F35C6D0C-0CFD-47E9-9027-0B0986D5A088}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8DF07BB6-8473-4B78-A0DE-09EBEF0C3E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF07BB6-8473-4B78-A0DE-09EBEF0C3E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF07BB6-8473-4B78-A0DE-09EBEF0C3E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35C6D0C-0CFD-47E9-9027-0B0986D5A088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35C6D0C-0CFD-47E9-9027-0B0986D5A088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35C6D0C-0CFD-47E9-9027-0B0986D5A088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35C6D0C-0CFD-47E9-9027-0B0986D5A088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
